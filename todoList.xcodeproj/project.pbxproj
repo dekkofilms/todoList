@@ -14,6 +14,7 @@
 		3B96C4441DF0D2010032F16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B96C4421DF0D2010032F16F /* LaunchScreen.storyboard */; };
 		3B96C44F1DF0D2010032F16F /* todoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C44E1DF0D2010032F16F /* todoListTests.swift */; };
 		3B96C45A1DF0D2010032F16F /* todoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B96C4591DF0D2010032F16F /* todoListUITests.swift */; };
+		3B96C4681DF0D25A0032F16F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B96C4671DF0D25A0032F16F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3B96C4551DF0D2010032F16F /* todoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B96C4591DF0D2010032F16F /* todoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoListUITests.swift; sourceTree = "<group>"; };
 		3B96C45B1DF0D2010032F16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B96C4671DF0D25A0032F16F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3B96C4381DF0D2010032F16F /* todoList */ = {
 			isa = PBXGroup;
 			children = (
+				3B96C4671DF0D25A0032F16F /* GoogleService-Info.plist */,
 				3B96C4391DF0D2010032F16F /* AppDelegate.swift */,
 				3B96C43B1DF0D2010032F16F /* ViewController.swift */,
 				3B96C43D1DF0D2010032F16F /* Main.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B96C4441DF0D2010032F16F /* LaunchScreen.storyboard in Resources */,
+				3B96C4681DF0D25A0032F16F /* GoogleService-Info.plist in Resources */,
 				3B96C4411DF0D2010032F16F /* Assets.xcassets in Resources */,
 				3B96C43F1DF0D2010032F16F /* Main.storyboard in Resources */,
 			);
